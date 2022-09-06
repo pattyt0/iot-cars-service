@@ -1,0 +1,28 @@
+{
+  "name": "iot-cars-service",
+  "version": "1.0.0",
+  "description": "iot cars service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src\\server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pattyt0",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pusher": "^5.1.1-beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pattyt0/iot-cars-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pattyt0/iot-cars-service/issues"
+  },
+  "homepage": "https://github.com/pattyt0/iot-cars-service#readme"
+}
